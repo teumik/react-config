@@ -7,7 +7,7 @@
     "serve": "webpack serve --open",
     "serve:prod": "webpack serve --open --mode=production --define-process-env-node-env=production",
     "watch": "webpack --watch",
-    "lint": "eslint -c .eslintrc.js --ext .js,.jsx,.ts,.tsx ."
+    "lint": "eslint src/**/*.tsx"
   },
   "dependencies": {
     "postcss-preset-env": "^7.8.3",
