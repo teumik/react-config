@@ -1,4 +1,5 @@
 import './App.scss';
+import Footer from './components/footer/footer';
 import Header from './components/header/header';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <h2>Subheader</h2>
         <p>Subtext</p>
       </section>
+      <Footer />
     </div>
   );
 }

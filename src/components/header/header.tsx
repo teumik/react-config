@@ -2,10 +2,10 @@ import './header.scss';
 
 function Header() {
   return (
-    <div className="header">
+    <header className="header">
       <div className="header__logo">Logo</div>
       <div className="header__cart">Cart</div>
-    </div>
+    </header>
   );
 }
 
