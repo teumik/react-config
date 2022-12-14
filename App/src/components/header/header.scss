@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: firebrick;
+  font-size: 2rem;
+
+  &__logo {
+    color: inherit;
+  }
+
+  &__cart {
+    color: inherit;
+  }
+}
